@@ -1,0 +1,55 @@
+/**
+ *
+ * Functions Style
+ *
+ */
+
+/**
+ *
+ * Functions 
+ * @name hidden
+ * @description 
+ *
+ */
+.k-hidden() {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+    overflow:hidden;
+}
+/**
+ *
+ * Functions 
+ * @name hidden-text
+ * @description 
+ *
+ */
+ .k-hidden-text() {
+    overflow: hidden;
+    text-indent: 9999px;
+}
+.k-clear-border-radius(){
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;    
+}
+.k-clear-box-shadow(){
+    -webkit-box-shadow: none;
+    -moz-box-shadow:    none;
+    box-shadow:         none;
+}
+.k-clear-radius-shadow(){
+    .k-clear-border-radius();
+    .k-clear-box-shadow();
+}
+.clear-img() {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+.full-img() {
+    width: 100%;
+}
