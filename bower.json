@@ -1,9 +1,0 @@
-{
-    "name": "AOCWORLD",
-    "version": "0.0.1",
-    "dependencies": {
-		"modernizr": "latest",
-        "jquery": "1.11.0",
-        "bootstrap": "latest"
-    }
-}
